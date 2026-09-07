@@ -1,0 +1,27 @@
+{
+  "name": "frontierlab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "validate:data": "node scripts/validate-data.mjs",
+    "export:data": "node scripts/export-data.mjs",
+    "summary:pdf": "node scripts/build-summary-pdf.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "8.0.16",
+    "vitest": "4.1.10"
+  }
+}

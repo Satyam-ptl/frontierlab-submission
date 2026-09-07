@@ -1,0 +1,1 @@
+export default function Footer(){return <footer><p>FrontierLab · Static, offline-capable after loading · MIT-licensed code</p><p>Team details are configured in repository metadata. No API key or sign-in required.</p></footer>}

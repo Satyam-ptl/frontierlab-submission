@@ -1,0 +1,1 @@
+import{spawnSync}from'node:child_process';const r=spawnSync('python',['/home/oai/skills/pdfs/scripts/md_to_pdf.py','docs/CONCEPT_SUMMARY.md','--output','docs/CONCEPT_SUMMARY.pdf'],{stdio:'inherit'});process.exit(r.status??1);

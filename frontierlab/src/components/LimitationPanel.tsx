@@ -1,0 +1,1 @@
+export default function LimitationPanel(){return <section className="panel"><h2>Claim boundaries</h2><ul><li>ARC-AGI-1 is not general intelligence.</li><li>A benchmark result is not a deployment result.</li><li>Developer reporting is not independent reproduction.</li><li>Frontier membership changes with protocols, points, and costs.</li></ul></section>}

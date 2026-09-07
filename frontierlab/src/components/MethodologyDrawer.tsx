@@ -1,0 +1,1 @@
+export default function MethodologyDrawer(){return <details className="panel"><summary>Methodology and exact dominance rule</summary><p>j dominates i when c_j ≤ c_i and a_j ≥ a_i, with at least one strict improvement. Invalid and incompatible values are excluded from strict comparison. Epsilon: 1e-12.</p></details>}

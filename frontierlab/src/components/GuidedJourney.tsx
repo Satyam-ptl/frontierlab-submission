@@ -1,0 +1,1 @@
+export default function GuidedJourney(){return <nav aria-label="Learning journey"><ol className="journey"><li>See result</li><li>Learn domination</li><li>Test assumptions</li><li>Explain it back</li></ol></nav>}

@@ -1,0 +1,1 @@
+export const multipliers=[.5,1,2];

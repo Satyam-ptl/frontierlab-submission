@@ -1,0 +1,1 @@
+export default function EvidenceCard(){return <aside className="evidence"><strong>Evidence:</strong> developer-reported result, not independently reproduced by this project.</aside>}

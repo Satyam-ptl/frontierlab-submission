@@ -1,0 +1,4 @@
+import type {BenchmarkPoint} from '../types/benchmark'; export const EPS=1e-12;
+export const validPoint=(p:BenchmarkPoint)=>Number.isFinite(p.cost_usd_per_task)&&Number.isFinite(p.accuracy_percent)&&(p.cost_usd_per_task as number)>0&&(p.accuracy_percent as number)>=0;
+export function dominates(a:BenchmarkPoint,b:BenchmarkPoint){if(!validPoint(a)||!validPoint(b))return false;const ac=a.adjusted_cost??a.cost_usd_per_task!;const bc=b.adjusted_cost??b.cost_usd_per_task!;const aa=a.accuracy_percent!,ba=b.accuracy_percent!;return ac<=bc+EPS&&aa+EPS>=ba&&(ac<bc-EPS||aa>ba+EPS)}
+export function frontier(points:BenchmarkPoint[]){const v=points.filter(validPoint);return v.filter((p,i)=>!v.some((q,j)=>i!==j&&dominates(q,p))).sort((a,b)=>(a.adjusted_cost??a.cost_usd_per_task!)-(b.adjusted_cost??b.cost_usd_per_task!)||a.system_id.localeCompare(b.system_id));}

@@ -1,0 +1,74 @@
+{
+  "accessed_date": "2026-09-07",
+  "sources": [
+    {
+      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "authors": "Bjorn Engdahl et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.09888",
+      "category": "developer-reported result",
+      "claim": "29.5% pass@2 and computed $0.0007/task; recurrent latent reasoning description",
+      "limitations": "Preprint and developer-reported; project did not reproduce benchmark.",
+      "license": "arXiv distribution terms"
+    },
+    {
+      "title": "The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain",
+      "authors": "Adrian Kosowski et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.26507",
+      "category": "primary technical paper",
+      "claim": "BDH architecture and synaptic-state background",
+      "limitations": "BDH and BDH-CQ are related, not identical.",
+      "license": "arXiv distribution terms"
+    },
+    {
+      "title": "Official BDH repository",
+      "authors": "Pathway",
+      "year": 2025,
+      "url": "https://github.com/pathwaycom/bdh",
+      "category": "official code repository",
+      "claim": "reference implementation for baseline BDH",
+      "limitations": "Repository states some later results are not reproduced out of the box.",
+      "license": "MIT"
+    },
+    {
+      "title": "ARC Prize Leaderboard",
+      "authors": "ARC Prize Foundation",
+      "year": 2026,
+      "url": "https://arcprize.org/leaderboard",
+      "category": "official leaderboard",
+      "claim": "context for cost-score evaluation and verification policy",
+      "limitations": "Leaderboard changes; this snapshot does not import unverified rows.",
+      "license": "Website terms"
+    },
+    {
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "authors": "Cobbe et al.",
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2110.14168",
+      "category": "primary paper",
+      "claim": "pass@k evaluation context",
+      "limitations": "Not ARC-specific.",
+      "license": "arXiv distribution terms"
+    },
+    {
+      "title": "Coconut: Training Large Language Models to Reason in a Continuous Latent Space",
+      "authors": "Hao et al.",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2412.06769",
+      "category": "primary paper",
+      "claim": "recent latent reasoning comparison",
+      "limitations": "Different model and benchmarks.",
+      "license": "arXiv distribution terms"
+    },
+    {
+      "title": "ARC Prize 2024: Technical Report",
+      "authors": "Francois Chollet, Mike Knoop, Gregory Kamradt, Bryan Landers",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2412.04604",
+      "claim_supported": "ARC-AGI-1 protocol background, two-attempt task setting, benchmark limitations, and representative reasoning approaches",
+      "evidence_category": "Primary benchmark technical report",
+      "limitations": "Does not validate the later BDH-CQ operating point."
+    }
+  ]
+}

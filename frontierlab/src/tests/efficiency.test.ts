@@ -1,0 +1,1 @@
+import{it,expect}from'vitest';import{efficiency}from'../lib/efficiency';it('calculates ratio',()=>expect(efficiency(25,.5)).toBe(50));it('handles invalid cost',()=>{expect(efficiency(1,0)).toBeNull();expect(efficiency(1,-1)).toBeNull();expect(efficiency(1,null)).toBeNull()})

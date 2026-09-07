@@ -1,0 +1,1 @@
+export function efficiency(accuracy:number|null,cost:number|null){return accuracy==null||cost==null||!Number.isFinite(cost)||!Number.isFinite(accuracy)||cost<=0||accuracy<0?null:accuracy/cost}

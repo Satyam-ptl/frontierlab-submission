@@ -1,0 +1,1 @@
+export const money=(n:number|null)=>n==null?'Not reported':`$${n<.01?n.toFixed(6):n.toFixed(2)}`;export const pct=(n:number|null)=>n==null?'Not reported':`${n.toFixed(1)}%`;

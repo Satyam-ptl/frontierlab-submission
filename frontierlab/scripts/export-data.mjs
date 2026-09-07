@@ -1,0 +1,1 @@
+import fs from'node:fs';const d=JSON.parse(fs.readFileSync(new URL('../public/data/benchmark_snapshot.json',import.meta.url)));fs.writeFileSync(new URL('../public/data/export.json',import.meta.url),JSON.stringify(d.points,null,2));console.log('Exported public/data/export.json');
