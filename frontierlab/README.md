@@ -37,7 +37,7 @@ npm run preview
 ```
 
 ## Deployment
-Vercel or Netlify: build `npm run build`, publish `dist`. GitHub Pages: set `VITE_BASE_PATH=/repo-name/` and publish `dist`. Details: `docs/DEPLOYMENT.md`.
+Vercel or Netlify: build `npm run build`, publish `dist`. GitHub Pages: set `VITE_BASE_PATH=/frontierlab-submission/` and publish `dist` at https://satyam-ptl.github.io/frontierlab-submission/. Details: `docs/DEPLOYMENT.md`.
 
 ## Reproducibility and limitations
 Snapshot date: **2026-09-07**. Source values remain immutable; multipliers create scenario values. Limitations include developer-reported evidence, a narrow strict set, computed-cost assumptions, no uncertainty bars, no training/energy/latency dimensions, and no architectural causal inference.
