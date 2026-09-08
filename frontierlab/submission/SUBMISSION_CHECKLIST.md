@@ -6,6 +6,6 @@
 - [x] AI assistance disclosed
 - [x] Tests, validation, and build executed
 - [x] ZIP excludes node_modules and secrets
-- [ ] Institution and submission deadline completed
+- [x] Team name, members, institution, deadline completed
 - [x] Public deployment URL added
 - [x] Team performs final source and live-defense review
