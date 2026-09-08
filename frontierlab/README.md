@@ -45,5 +45,5 @@ Snapshot date: **2026-09-07**. Source values remain immutable; multipliers creat
 ## Credits, licenses, AI disclosure, citation
 Code is MIT. Research sources retain their own terms. Dependencies and sources are in `docs/SOURCE_AND_LICENSE_RECORD.md`. AI assistance is disclosed in `docs/AI_ASSISTANCE_DISCLOSURE.md`. Cite with `CITATION.cff`.
 
-## Team placeholders
-Team name, members, institution, deadline, public URL, and repository URL are intentionally centralized in `CITATION.cff` and `submission/SUBMISSION_LINKS.md`.
+## Team and submission details
+Team name, members, institution, deadline, public URL, and repository URL are centralized in `submission/SUBMISSION_LINKS.md`.
