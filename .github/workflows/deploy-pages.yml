@@ -17,9 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: frontierlab
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,17 +27,15 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        working-directory: frontierlab
         run: npm install --no-audit --no-fund
 
       - name: Build application
-        working-directory: frontierlab
         run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: frontierlab/dist
+          path: dist
 
   deploy:
     needs: build
